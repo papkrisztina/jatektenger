@@ -1,0 +1,1756 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="dist/css/index.css">
+    </head>
+
+    <!--Body-->
+
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--Header-->
+
+                <header class="col-12 container main-header">
+
+                    <!--Deco-left-->
+
+                    <div class="d-none d-lg-block deco-left"></div>
+
+                    <!--/Deco-left-->
+
+                    <div class="container">
+                        <div class="row">
+
+                            <!--Site-logo-->
+
+                            <div class="col-xs-6 col-sm-4 col-md-4 logo">
+                                <a href="valami.hu" title="Játéktenger.hu" class="site-logo">
+                                    <img src="assets/images/logo.png">
+                                    <span>Játéktenger</span>
+                                </a>
+                            </div>
+
+                            <!--/Site-logo-->
+                            
+
+                            <!--shipping-info + main-fns-->
+
+                            <div class="col-xs-6 col-sm-8 col-md-8 logo">
+                                <div class="shipping-info">
+                                    <img class="icon-vam" src="assets/images/icon-van@2x.png" alt="icon-van">
+                                    ingyenes kiszállítás 20 000 Ft felett
+                                </div>
+                                <div class="main-fns">
+                                    <div class="login-user s-m-hidden">
+                                        <img class="icon-user" src="assets/images/icon-user@2x.png" alt="icon-user">
+                                        <div class="map">
+                                          <a class="maps" href="packages/index.html">Belépés</a>
+                                      </br>
+                                      <a href="packages/index.html">Regisztráció</a>
+                                        </div>
+                                      </div>
+                                      <div class="login-user s-m-hidden">
+                                        <img class="icon-partner" src="assets/images/icon-partner@2x.png " alt="icon-partner">
+                                        <div class="map">
+                                          <a class="maps" href="packages/index.html">Nagyker</a>
+                                      </br>
+                                      <a href="packages/index.html">Regisztráció</a>
+                                        </div>
+                                      </div>
+                                    <div class="login-user">
+                                      <a href="#">
+                                        <img class="icon-cart" src="assets/images/icon-cart@2x.png" alt="icon-cart">
+                                      </a>
+                                        <div class="map s-m-hidden">
+                                              <a class="maps" href="packages/index.html">Kosár</a>
+                                        </br>
+                                              <b>Üres</b>
+                                        </div>
+                                      </div>
+                                      <div class="searcs">
+                                        <form action="#">
+                                          <input type="search" class="form-control search" id="Keresés" name="Keresés" placeholder="Keresés">
+                                        </form>
+                                      </div>
+                                </div>
+                            </div>
+
+                            <!--/Shipping-info + main-fns-->
+
+                        </div>
+                    </div>
+
+                    <!--Deco-right-->
+
+                    <div class="d-none d-lg-block deco-right"></div>
+
+                    <!--/Deco-right-->
+
+                </header>
+
+                <!--/Header-->
+
+                <!--Nav-->
+                <!--Mobile-nav-->
+                <nav class="d-lg-none mobile-nav">
+                  <div id="mySidenav" class="sidenav">
+                    <div class="closetbn">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    </div>
+                    <div class="main-fns">
+                      <div class="site-search">
+                        <form action="#">
+                          <input type="search" class="form-control search" id="Keresés" name="Keresés" placeholder="Keresés">
+                        <button type="submit" value="Keresés">
+                          <i class="material-icons">search</i>
+                        </button>
+                        </form>
+                      </div>
+                      <div class="mobile-login-user box">
+                        <div class="mobile-belepes">
+                          <img src="assets/images/icon-user@2x.png" alt="icon-user">
+                          <a href="#">
+                            <span>Belépés</span>
+                          </a>
+                        </div>
+                        <div class="mobile-regisztracio">
+                          <button>
+                            <a href="#">Regisztráció</a>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="mobile-login-partner box">
+                        <div class="mobile-belepes">
+                          <img src="assets/images/icon-partner@2x.png" alt="icon-partner">
+                          <span>
+                            <a href="#">Nagyker</a>
+                          </span>
+                        </div>
+                        <div class="mobile-regisztracio">
+                          <button>
+                            <a href="#">Regisztráció</a>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="mobile-site-cart box">
+                        <div class="mobile-kosar">
+                          <img src="assets/images/icon-cart@2x.png" alt="icon-cart">
+                          <span>
+                            <a href="#">kosár</a>
+                          </span>
+                        </div>
+                        <div class="mobile-kosar-tartalom">
+                          <a href="#">üres</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="menu-title">
+                      <span>Navigáció</span>
+                    </div>
+                    <ul class="nav navbar-nav">
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" title="Kategóriák">Kategóriák</a>
+                        <div class="submenu open">
+                        </div>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" title="Márkák">Márkák</a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" title="Mesehősök">Mesehősök</a>
+
+                      </li>
+                      <li>
+                        <a href="#" title="TV">TV</a>
+                      </li>
+                      <li>
+                        <a href="#" title="Akció">Akció</a>
+                      </li>
+                      <li>
+                        <a href="#" title="Újdonság">Újdonság</a>
+                      </li>
+                      <li>
+                        <a href="#" title="Blog">Blog</a>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <!-- Use any element to open the sidenav -->
+                  <span class="open" onclick="openNav()">
+                    <button class="mobile-nav-button">
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                      <div class="bar"></div>
+                    </button>
+                  </span>
+                
+                </nav>
+
+                <!--/mobile-nav-->
+                <nav class="d-none d-lg-block fixed">
+                    <div class="container main-nav">
+                        <div class="row">
+                            <div class="navbar-collapse">
+                                <ul class="main-nav__item">
+                                    <li class="main-nav__item dropdown">
+                                        <a href="packages/index.html" class="dropdown-toggle" data-toggle="dropdown" role="button" title="Kategóriák">Kategóriák</a>
+                                        <div class="dropdown-menu" style="margin-top: 0;">
+                                          <div class="submenu">
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Bébi,kisgyerek</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Plüssök</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Kreatív Játékok</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Babák és kiegészítők</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Szerepjátékok</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Akciófigurák, gyűjthető figurák</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Elektronikus játékok</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Autók járművek</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Építőjátékok, LEGO</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Kert, kültéri játékok</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Társasjátékok</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Puzzle, kirakós</span>
+                                                </a>
+                                              </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Tanulás, könyv</span>
+                                              </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Édességek, italok</span>
+                                              </a>
+                                              </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                    </li>
+                                    <li class="main-nav__item dropdown">
+                                        <a class="title dropdown-toggle" href="packages/index.html" data-toggle="dropdown" role="button" title="Márkák"><img src="assets/images/menu-bullet@2x (1).png" alt="bullet-menu">Márkák</a>
+                                        <div class="dropdown-menu" style="margin-top: 0;">
+                                          <h5 class="dropdown-header">Összes márka</h5>
+                                          <div class="submenu">
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Alex</span>
+                                              </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Baby Shark</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Barbie</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Bead Bazaar</span>
+                                              </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Brainbox</span>
+                                              </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Bullyland</span>
+                                              </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Canal Toys</span>
+                                              </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Clementoni</span>
+                                              </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Comansi</span>
+                                              </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Crayola</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Creative Kids</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Dickei Toys</span>
+                                                </a>
+                                              </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Disceez</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Djeco</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Doodletop</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Dragoni</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Duplo</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Face Paintoos</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Fisher-Price</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Fubbles</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Hasbro</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Hatchimals</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                  <span>Hope Winning</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                    <span>Hot Wheels</span>
+                                                  </a>
+                                              </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Ilanit</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Infantino</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Keller & Mayer</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Kensho</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>LEGO</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Lifestyle</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Llorens</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Make it Real</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Marvin's Magic</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Mattle Games</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Megableu</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Melissa & Doug</span>
+                                              </a>
+                                            </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>My Fairy Garden</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>My Fairy Garden</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Nerf</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Oops</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Ochard Toys</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Pagony Könyvek</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Piatnik</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Play-Doh</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Playbox</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>PLAYMOBIL</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Ravensburger</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Sambo</span>
+                                              </a>
+                                            </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Schleich</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Smart Games</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Step2</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Stragoo</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>ThinkFun</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Trefl</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Trendhaus</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>University Games</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Waden</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Wonderland</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Wooden City</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>WOW</span>
+                                              </a>
+                                            </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li class="main-nav__item dropdown">
+                                        <a class="title dropdown-toggle" href="packages/index.html" data-toggle="dropdown" role="button" title="Mesehősök">
+                                          <img src="assets/images/menu-bullet@2x (1).png" alt="bullet-menu">Mesehősök
+                                        </a>
+                                        <div class="dropdown-menu" style="margin-top: 0;">
+                                          <h5 class="dropdown-header">Összes mesehős</h5>
+                                          <div class="submenu">
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Az Igazság Ligája</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Baby Shark</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Barbie</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Batman</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Bing nyuszi</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Bob, a mester</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Bogyó és Babóca</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Bolondos dallamok</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Bosszúállók</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>DC Super Hero Girls</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Disney Hercegnők</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Dóra a felfedező</span>
+                                              </a>
+                                            </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Enchatimals</span>
+                                                </a>
+                                              </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Gorjuss</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Harry Potter</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Hello Kitty</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Így neveld a sárkányodat</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Jégvarázs</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Kis kedvencek titkos élete</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Kisvakond</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Láng és a szuperverdák</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>LEGO Friends</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>LEGO Ninjago</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Littlest Pet Shop</span>
+                                              </a>
+                                            </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Mancs őrjárat</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Mása és a Medve</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Micimackó</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Mickey & Minnie egér</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Minyon</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>My Little Pony</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Peppa malac</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Pindur Pandúrok</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Pocoyo</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Pókember</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Sam, a tűzoltó</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Scooby-Doo</span>
+                                              </a>
+                                            </li>
+                                            </ul>
+                                            <ul class="list-unstyled">
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Shaun, a bárány</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Shimmer és Shine</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Spongya Bob</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Star Wars</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Superman</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Thomas és barátai</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Tini Nindzsa Teknőcök</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Toy Story</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Transformers</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                              <a href="#">
+                                                <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Vampirina</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Verdák</span>
+                                              </a>
+                                            </li>
+                                              <li>
+                                                <a href="#">
+                                                  <span class="material-icons">keyboard_arrow_right</span>
+                                                <span>Winx</span>
+                                              </a>
+                                            </li>
+                                            </ul>
+                                          </div>
+                                        </div>
+                                      </li>
+                                      <li class="main-nav__item">
+                                        <a class="title" href="packages/index.html"><img src="assets/images/menu-bullet@2x (1).png" alt="bullet-menu">TV</a>
+                                      </li>
+                                      <li class="main-nav__item">
+                                        <a class="title" href="packages/index.html"><img src="assets/images/menu-bullet@2x (1).png" alt="bullet-menu">Akció</a>
+                                      </li>
+                                      <li class="main-nav__item">
+                                        <a class="title" href="packages/index.html"><img src="assets/images/menu-bullet@2x (1).png" alt="bullet-menu">Újdonság</a>
+                                      </li>
+                                      <li class="main-nav__item">
+                                        <a class="title" href="packages/index.html"><img src="assets/images/menu-bullet@2x (1).png" alt="bullet-menu">Blog</a>
+                                      </li>
+                                      <li class="main-nav__item">
+                                        <a class="penznem" href="packages/index.html">FT</a>
+                                      </li>
+                                      <li class="main-nav__item">
+                                        <a href="packages/index.html"><img class="flag" src="assets/images/flag_hu@2x.png" alt="flag"></a>
+                                      </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+
+                <!--/Nav-->
+
+                <!--Main-->
+
+              <main class="col-12 site-main">
+                    <div class="container">
+                    <div class="row">
+                        <div class="col-md-12 col-lg-9 col-md-push-3 container">
+                            <div class="row">
+                                <div class="col-12 container main-dobozok">
+                                    <div class="row">
+                                      <div id="demo" class="carousel slide" data-ride="carousel">
+
+                                        <!-- Indicators -->
+                                        <ul class="carousel-indicators">
+                                          <li data-target="#demo" data-slide-to="0" class="active"></li>
+                                          <li data-target="#demo" data-slide-to="1"></li>
+                                          <li data-target="#demo" data-slide-to="2"></li>
+                                          <li data-target="#demo" data-slide-to="3"></li>
+                                        </ul>
+                                      
+                                        <!-- The slideshow -->
+                                        <div class="carousel-inner">
+                                          <div class="carousel-item active">
+                                            <img src="assets/images/95d14a051b322d6d06790f87c613093ab47a1873@2x.jpeg" alt="Los Angeles">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img src="assets/images/04571dafdb50560392d706917974c0ffb462c84d.jpeg" alt="Chicago">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img src="assets/images/b89ea20b030dbbbe1685e932646863d6a3509cf0.jpeg" alt="New York">
+                                          </div>
+                                          <div class="carousel-item">
+                                            <img src="assets/images/87b7fda88d3f0a975059762c74e3f6719dbdfd10.jpeg" alt="New York">
+                                          </div>
+                                        </div>
+                                      
+                                        <!-- Left and right controls -->
+                                        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                                          <span class="carousel-control-prev-icon"></span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#demo" data-slide="next">
+                                          <span class="carousel-control-next-icon"></span>
+                                        </a>
+                                      
+                                      </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 container dobozok">
+                                          <div class="block-title text-center">
+                                            <h2>Kiemelt ajánlataink</h2>
+                                          </div>
+                                          <div class="product-list-elements">
+                                            <div class="row">
+                                              <ul class="col-md-12 flex">
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/c585863ab358098381cf551231958073816793d5_prod_list.jpeg" alt="Catan telepesei társasjáték">
+                                                      <i class="badge-icon badge-new">
+                                                        <span>Új</span>
+                                                      </i>
+                                                    </figure>
+                                                      <h5>Catan telepesei társasjáték</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">7990Ft</div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/eb92f8657f8046fe3688189d00dff63b0873a41f_prod_list.jpeg" alt="Harry Potter: Roxforti csata - Sötét varázslatok kivédése társasjáték">
+                                                      <i class="badge-icon badge-new">
+                                                        <span>Új</span>
+                                                      </i>
+                                                      </figure>
+                                                      <h5>Harry Potter: Roxforti csata - társasjáték</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">8590Ft</div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                        <img src="assets/images/55c8ea1e3cfb6e3cd897d104e603d16631775cd5_prod_list.jpeg" alt="Ficher-Price tanuló kutyusos kocsi">
+                                                        <i class="badge-icon badge-new">
+                                                          <span>Új</span>
+                                                        </i>
+                                                        <i class="badge-icon badge-sale">
+                                                          <span>48%</span>
+                                                        </i> 
+                                                      </figure>
+                                                      <h5>Ficher-Price tanuló kutyusos kocsi</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">
+                                                        <em>27890Ft</em>
+                                                        <span>14490Ft</span>
+                                                      </div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/1d3c1526ad140d783d93b1626e38e127d66f6f67_prod_list.jpeg" alt="Present Pets interaktív meglepetés kutyus ( kölyök állatka) - lila">
+                                                      <i class="badge-icon badge-new">
+                                                        <span>Új</span>
+                                                      </i>  
+                                                    </figure>
+                                                      <h5>Present Pets interaktív meglepetés kutyus</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">5990Ft</div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                              </ul>
+                                                <ul class="col-md-12 flex">
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/de64b0e0e9e2d3bc60a3d8ded7fd9ea9f1cb3426_prod_list.jpeg" alt="Megableu bank attack társasjáték">
+                                                      <i class="badge-icon badge-sale">
+                                                        <span>66%</span>
+                                                      </i> 
+                                                      <i class="badge-icon badge-tv"></i>
+                                                      <i class="badge-icon badge-award"></i>
+                                                    </figure>
+                                                      <h5>Megableu bank attack társasjáték</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">
+                                                        <em>8990Ft</em>
+                                                        <span>3090Ft</span>
+                                                      </div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/90be8b152f3f43426798a80dcf09c79a3c513184_prod_list.jpeg" alt="Cool maker go glam deluxe manikür szalon 2 az 1 ben készlet">
+                                                      <i class="badge-icon badge-sale">
+                                                        <span>36%</span>
+                                                      </i> 
+                                                      <i class="badge-icon badge-tv"></i>
+                                                    </figure>
+                                                      <h5>Cool maker go glam deluxe manikür szalon 2 az 1 ben készlet</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">
+                                                        <em>10990Ft</em>
+                                                        <span>6990Ft</span>
+                                                      </div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/27424be62e2b08703a4468900e2707313e683506_prod_list.jpeg" alt="baby shark cápa család zenélő plüss - bébi cápa">
+                                                      <i class="badge-icon badge-new">
+                                                        <span>Új</span>
+                                                      </i>
+                                                    </figure>
+                                                      <h5>baby shark cápa család zenélő plüss - bébi cápa</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">4990Ft</div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/7a994589aaa5b5606cff559e6f501e2fe6c497ac_prod_list.jpeg" alt="My fairy garden unikornis kert">
+                                                      <i class="badge-icon badge-new">
+                                                        <span>Új</span>
+                                                      </i>  
+                                                    </figure>
+                                                      <h5>My fairy garden unikornis kert</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">9990Ft</div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                          </div>
+                                          <div class="whitespace-2"></div>
+                                          <div class="block-subtitle text-center">
+                                            <h2>Akciós Ajánlataink</h2>
+                                          </div>
+                                          <div class="product-list-elements">
+                                            <div class="row">
+                                              <ul class="col-md-12 flex">
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/8964bf3f5f686b4107e2ca4a83cfdc8d2af6e731_prod_list.jpeg" alt="Catan telepesei társasjáték">
+                                                      <i class="badge-icon badge-sale">
+                                                        <span>15%</span>
+                                                      </i>   
+                                                    </figure>
+                                                      <h5>Berg Judit: Doktor Maszat</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">
+                                                        <em>1990Ft</em>
+                                                        <span>1692Ft</span>
+                                                      </div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/0c8edc36059c7fe74d8d3fffca7a70eaac59918d_prod_list.jpeg" alt="kép">
+                                                      <i class="badge-icon badge-sale">
+                                                        <span>15%</span>
+                                                      </i>   
+                                                    </figure>
+                                                      <h5>So Magic Varázslatos kristálykert stúdió</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">
+                                                        <em>8490Ft</em>
+                                                        <span>4990Ft</span>
+                                                      </div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/0e2d886acbf282d2a97b1e8e21a0bf776a02f36c_prod_list.jpeg" alt="képhelye">
+                                                      <i class="badge-icon badge-sale">
+                                                        <span>10%</span>
+                                                      </i>   
+                                                    </figure>
+                                                      <h5>Melissa & Doug Kreatív játék, Filcnyomda és színező füzet</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">
+                                                        <em>1590Ft</em>
+                                                        <span>1431Ft</span>
+                                                      </div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                <li class="flexx">
+                                                  <div class="product-list-item">
+                                                    <a href="#">
+                                                      <figure>
+                                                      <img src="assets/images/bd284e8ffb7e33a73d6a21536ed29cf1798bf14d_prod_list@2x.jpeg" alt="képhelye">
+                                                      <i class="badge-icon badge-sale">
+                                                        <span>15%</span>
+                                                      </i> 
+                                                    </figure>
+                                                      <h5>PLAYMOBIL® 6920 Szolgálati rendőrautó</h5>
+                                                    </a>
+                                                    <div class="price-list">
+                                                      <div class="total">
+                                                        <em>11490Ft</em>
+                                                        <span>9767Ft</span>
+                                                      </div>
+                                                    </div>
+                                                    <div class="btn btn-basket">
+                                                      <button class="to-cart">
+                                                        <i class="icon-basket"></i>
+                                                        <span class="text">Kosárba</span>
+                                                      </button>
+                                                    </div>
+                                                    <div class="favourite btn-fav">kedvelem</div>
+                                                  </div>
+                                                </li>
+                                                </ul>
+                                            </div>
+                                          </div>
+                                          <div class="whitespace-2"></div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                    
+                    <!--Aside-->
+
+                    <div class="col-md-12 col-lg-3 col-md-pull-9 container">
+                      <aside>
+                      <div class="row" style="padding-right: 10px; padding-left: 10px;">
+                        <div class="col-12 container search-panel">
+                          <div class="deco-top"></div>
+                          <div class="deco-bottom"></div>
+                          <h3 class="title">Keresés</h3>
+                          <div class="contetnt">
+                            <h4>Kategória</h4>
+                                        <form>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Bébi, kisgyerek</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Plüssök</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Kreatív játékok</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Babák és kiegészítők</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Szerepjátékok</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Akció figurák</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Autók, járművek</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Építő játékok, LEGO</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Kert, kültéri játékok</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Társasjátékok</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Puzzle, kirakós</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Tanulás, könyv</label><br>
+                                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                                            <label for="#demo">Édességek, italok</label><br>
+                                        </form>
+                          </div>
+                          <div class="panel">
+                            <h4>Ár</h4>
+                            <form>
+                                <input type="checkbox" id="#demo" name="#demo" value="0">
+                                <label for="#demo">1000 Ft alatt</label><br>
+                                <input type="checkbox" id="#demo" name="#demo" value="0">
+                                <label for="#demo">1000 Ft - 2000 Ft</label><br>
+                                <input type="checkbox" id="#demo" name="#demo" value="0">
+                                <label for="#demo">2000 - 4000 Ft</label><br>
+                                <input type="checkbox" id="#demo" name="#demo" value="0">
+                                <label for="#demo">4000 - 7000 Ft</label><br>
+                                <input type="checkbox" id="#demo" name="#demo" value="0">
+                                <label for="#demo">7000 Ft - 15000 Ft</label><br>
+                                <input type="checkbox" id="#demo" name="#demo" value="0">
+                                <label for="#demo">15000 Ft - 30000 Ft</label><br>
+                                <input type="checkbox" id="#demo" name="#demo" value="0">
+                                <label for="#demo">30000 Ft felett</label><br>
+                            </form>
+                        </div>
+                        <div class="panel">
+                          <h4>Korcsoport</h4>
+                      <form>
+                          <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                          <label for="#demo">0-1 éves</label><br>
+                          <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                          <label for="#demo">1-3 éves</label><br>
+                          <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                          <label for="#demo">3-5 éves</label><br>
+                          <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                          <label for="#demo">5-7 éves</label><br>
+                          <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                          <label for="#demo">7-12 éves</label><br>
+                          <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                          <label for="#demo">12 év felett</label><br>
+                      </form>
+                      </div>
+                      <div class="panel">
+                        <h4>Nem</h4>
+                        <div class="gender">
+                        <ul>
+                            <li>
+                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                            <label for="#demo"> Fiú</label><br>
+                            </li>
+                            <li>
+                            <input type="checkbox" id="#demo" name="#demo" value="#demo">
+                            <label for="#demo"> Lány</label><br>
+                            </li>
+                        </ul>
+                        </div>
+                    </div>
+                    <div class="pnl keyword">
+                      <h4>Kulcsszó</h4>
+                      <form action="/action_page.php">
+                          <input type="search" class="form-control search" id="Keresés" name="Keresés">
+                          <button type="submit" id="advanced_button" class="button" value="Keresés">Keresés</button>
+                      </form>
+                  </div>
+                        </div>
+                      </div>
+                      <div class="whitespace-2"></div>
+                      <div class="row">
+                        <div class="col-12 container">
+                          <div class="candy-border"></div>
+                          <div class="newsletter">
+                            <div class="content">
+                              <form name="ruff_newsletter_subcriber" method="POST">
+                                <h3>Hírlevél</h3>
+                                                <hr />
+                                                <p>Iratkozzon fel hírlevelünkre!</p>
+                                                <form action="/action_page.php">
+                                                  <div class="form-group">
+                                                    <label for="email"></label>
+                                                    <input type="email" class="form-control" placeholder="E-mail" id="email">
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <label for="lastname"></label>
+                                                    <input type="lastname" class="form-control" placeholder="Keresztnév" id="lastname">
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <label for="firstname"></label>
+                                                    <input type="firstname" class="form-control" placeholder="Vezetéknév" id="firstname">
+                                                  </div>
+                                                  <p>Alulírott, az alábbi ’Feliratkozás’ gomb megnyomásával - az Általános Adatvédelmi Rendelet
+                                                    (GDPR) 6.
+                                                    cikk (1) bekezdés a) pontja, továbbá a 7. cikk rendelkezése alapján - hozzájárulok, hogy az
+                                                    adatkezelő
+                                                    a most megadott személyes adataimat a GDPR, továbbá a saját adatkezelési tájékoztatójának
+                                                    feltételei
+                                                    szerint kezelje, és hírlevelet küldjön a számomra. Tudomásul veszem, hogy a GDPR 7. cikk (3)
+                                                    bekezdése
+                                                    szerint a hozzájárulásomat bármikor visszavonhatom, akár egy kattintással.
+                                                  </p>
+                                                  <button type="submit" class="btn btn-default">Feliratkozás</button>
+                                                  <button type="submit" class="btn btn-button">Leiratkozás</button>
+                                                </form>
+                              </form>
+                            </div>
+                          </div>
+                          <div class="candy-border"></div>
+                        </div>
+                      </div>
+                      <div class="whitespace-2"></div>
+                      <div class="row">
+                        <div class="col-12 category">
+                          <div class="category-heading">
+                            <h3>Kategóriák</h3>
+                          </div>
+                          <ul>
+                            <li>
+                              <a href="#">Bébi, kisgyerek</a>
+                            </li>
+                            <li>
+                              <a href="#">Plüssök</a>
+                            </li>
+                            <li>
+                              <a href="#">Kreatív játékok</a>
+                            </li>
+                            <li>
+                              <a href="#">Babák és kiegészítők</a>
+                            </li>
+                            <li>
+                              <a href="#">Szerepjátékok</a>
+                            </li>
+                            <li>
+                              <a href="#">Akciófigurák, gyűjthető figurák</a>
+                            </li>
+                            <li>
+                              <a href="#">Elektronikus játékok</a>
+                            </li>
+                            <li>
+                              <a href="#">Autók, járművek</a>
+                            </li>
+                            <li>
+                              <a href="#">Építőjátékok, LEGO</a>
+                            </li>
+                            <li>
+                              <a href="#">Kert, kültéri játékok</a>
+                            </li>
+                            <li>
+                              <a href="#">Társasjátékok</a>
+                            </li>
+                            <li>
+                              <a href="#">Puzzle, kirakós</a>
+                            </li>
+                            <li>
+                              <a href="#">Tanulás, könyv</a>
+                            </li>
+                            <li>
+                              <a href="#">Édességek, italok</a>
+                            </li>
+                        </ul>
+                      </div>
+                      </div>
+                      <div class="whitespace-2"></div>
+                      </aside>
+                    </div>
+
+                  <!--/Aside-->
+
+                </div>
+            </main>
+
+            <!--/Main-->
+
+                <!--Footer-->
+
+                <footer class="col-12 site-footer">
+                    <div class="deco-left"></div>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 col-lg-3">
+                                <h3 class="title">Információk</h3>
+                                <ul>
+                                    <li>
+                                      <a href="#">ÁSZF</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Adatvédelem</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Bankkártyás fizetés</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Fizetés és szállítás</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Pick Pack Pont</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Profilom</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Törzsvásárlói rendszer</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Ügyfélszolgálat</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Vásárlás menete</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Viszonteladóknak</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Személyes átvétel</a>
+                                    </li>
+                                  </ul>
+                            </div>
+                            <div class="col-md-12 col-lg-3">
+                                <h3 class="title">Blog</h3>
+                                <ul>
+                                    <li>
+                                      <a href="#">Egy őrület nyomában: A Slime</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Bullyland és Comansi figurák 10% kedvezménnyel, MasterCard® kuponnal</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Csobbanással egybekötött szórakozás</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Útitársasokról töviről hegyire - avagy mit vigyünk a nyaralásra?</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">A gyerekek a barátságot és a családot választják!</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Fa vagy műanyag? Ez itt a kérdés!</a>
+                                    </li>
+                                  </ul>
+                            </div>
+                            <div class="col-md-12 col-lg-3">
+                                <h3 class="title">Gyakori kérdések</h3>
+                                <ul>
+                                    <li>
+                                      <a href="#">Mennyibe kerül a szállítás?</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Merre jár a csomagom?</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Módosíthatom a rendelésem?</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Problémás a csomagom!</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Jótállás, szavatosság</a>
+                                    </li>
+                                    <li>
+                                      <a href="#">Céges ajánlatot kérnék!</a>
+                                    </li>
+                                  </ul>
+                            </div>
+                            <div class="col-md-12 col-lg-3">
+                                <h3 class="title">Kapcsolat</h3>
+                                <div class="container-text">
+                                    <div class="contact-data">
+                                      <p>1037 Budapest, Csillaghegyi út 13.</p>
+                                      <p>+36 (1) 205 3580,
+                                        H-P 9-17 óráig
+                                      </p>
+                                      <p>
+                                        info@jatektenger.hu
+                                      </p>
+                                    </div>
+                                    <div class="facebook1">
+                                        <img src="assets/images/icon-fb@2x.png" alt="ezvan" style="width:35px">
+                                        <div class="facebook2">
+                                          <a href="#">Legyen barátunk a
+                                            <br> Facebookon is!</a>
+                                        </div>
+                                    </div>
+                                    <div class="google1">
+                                      <img src="assets/images/icon-gplus@2x.png" alt="google" style="width:40px">
+                                      <div class="google2">
+                                        <a href="packages/index.html">Kövessen minket a
+                                        <br>
+                                      Google+-on</a>
+                                      </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="white-space"></div>
+                    </div>
+                    <div class="container partners-container">
+                        <div class="row">
+                            <div class="partner-logos col-12">
+                                <p>
+                                    <img src="assets/images/kh_logo@2x.png" alt="khbank" style="width:80px">
+                                    <img src="assets/images/maestro_logo@2x.png" alt="maestro" style="width:130px">
+                                    <img src="assets/images/mastercard_logo@2x.png" alt="mastercard" style="width:140px">
+                                    <img src="assets/images/visa_electron_logo@2x.png" alt="visaelectron" style="width:90px">
+                                    <img src="assets/images/visa_logo@2x.png" alt="visa" style="width:90px">
+                                    <img src="assets/images/b6f534c54c18dafc7ec1ed0c466857275ee754b3@2x.png" alt="expressone" style="width:150px">
+                                    <img src="assets/images/pick_pack_p_logo@2x.png" alt="pickpackpont" style="width:100px">
+                                    <img src="assets/images/net_jog_logo@2x.png" alt="netjog" style="width:130px">
+                                </p>
+                            </div>
+                            <div class="main-partner col-12">
+                                <p>
+                                    <img src="assets/images/argep_logo@2x.png" alt="argep" style="width:100px">
+                                    <img src="assets/images/kh_fizetes_logo@2x.png" alt="khkartyasfizetes" style="width:160px">
+                                    <img src="assets/images/logo-120.png" alt="arukereso" style="width:120px">
+                                    <img src="assets/images/119258-150x74-5a3c581c8cfdd814ea6fa7c5f26e12d1.png" alt="megbizhatobolt" style="width:150px">
+                                </p>
+                            </div>
+                            <div class="copyright col-12">
+                                <p>
+                                    Copyright © 2016 Kensho Kft. Minden jog fenntartva.
+                                  </p>
+                            </div>
+                            <div class="madeby col-12">
+                                <p>
+                                    KÉSZÍTETTE A <img src="assets/images/logo-rufftech.png" alt="rufftech" style="width:80px"> CSOPORT
+                                  </p>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+                <!--/Footer-->
+
+              </div>
+        </div>
+    </body>
+    <!--/Body-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/jatektenger.js"></script>
+</html>

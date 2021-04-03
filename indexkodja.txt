@@ -1,0 +1,194 @@
+<!doctype <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/jatektenger.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Marck+Script" rel="stylesheet">
+      </head>
+      <body>
+        <div class="container-fluid container col-md-12">
+          <header>
+            header
+          </header>
+          <div class="container col-12">
+              <div class="row">
+                <div class="container col-3">
+                  <aside>
+                  <div class="row">
+                  <div class="container text col-12">
+                    <h3>Keresés</h3>
+                  </br>
+                  <div class="panel">
+                  <div class="panel-heading">
+                      <h4>Kategória</h4>
+                    </div>
+                    <div class="panel-collapse">
+                        <ul style="list-style-type:none">
+                          <li>Bébi,kisgyerek</li>
+                          <li>Plüssök</li>
+                          <li>Kreatív játékok</li>
+                          <li>Babák és kiegészítõk</li>
+                          <li>Szerepjátékok</li>
+                        </ul>
+                      </div>
+                      <div class="panel-end">
+                        Még több
+                      </div>
+                    </div>
+                    <br />
+                    <div class="panel1">
+                        <div class="panel-heading">
+                          <h4>Ár</h4>
+                        </div>
+                        <div class="panel-collapse">
+                          <ul class="list-unstyled">
+                            <li>1000Ft alatt</li>
+                            <li>1000Ft - 2000Ft</li>
+                            <li>2000Ft - 4000Ft</li>
+                            <li>4000Ft - 7000Ft</li>
+                            <li>7000Ft - 15000Ft</li>
+                          </ul>
+                        </div>
+                        <div class="panel-end">
+                          Még több
+                        </div>
+                    </div>
+                      <br />
+                      <div class="panel1">
+                        <div class="panel-heading">
+                          <h4>Korcsoport</h4>
+                        </div>
+                        <div class="panel-collapse">
+                          <ul class="list-unstyled">
+                            <li>0 - 1 éves</li>
+                            <li>1 - 3 éves</li>
+                            <li>3 - 5 éves</li>
+                            <li>5 - 7 éves</li>
+                            <li>7 - 12 éves</li>
+                          </ul>
+                        </div>
+                        <div class="panel-end">
+                          Még több
+                        </div>
+                      </div>
+                  </div>
+                      <div class="container7">
+                          <div class="candy-border"></div>
+                          <div class="hirlevel">
+                                <h3>Hírlevél</h3>
+                                <hr />
+                                <p>Iratkozzon fel hírlevelünkre!</p>
+                                <form action="/action_page.php">
+                                  <div class="form-group">
+                                    <label for="email"></label>
+                                    <input type="email" class="form-control" placeholder="E-mail" id="email">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="lastname"></label>
+                                    <input type="lastname" class="form-control" placeholder="Keresztnév" id="lastname">
+                                  </div>
+                                  <div class="form-group">
+                                    <label for="firstname"></label>
+                                    <input type="firstname" class="form-control" placeholder="Vezetéknév" id="firstname">
+                                  </div>
+                                  <p>Alulírott, az alábbi ’Feliratkozás’ gomb megnyomásával - az Általános Adatvédelmi Rendelet
+                                    (GDPR) 6.
+                                    cikk (1) bekezdés a) pontja, továbbá a 7. cikk rendelkezése alapján - hozzájárulok, hogy az
+                                    adatkezelõ
+                                    a most megadott személyes adataimat a GDPR, továbbá a saját adatkezelési tájékoztatójának
+                                    feltételei
+                                    szerint kezelje, és hírlevelet küldjön a számomra. Tudomásul veszem, hogy a GDPR 7. cikk (3)
+                                    bekezdése
+                                    szerint a hozzájárulásomat bármikor visszavonhatom, akár egy kattintással.
+                                  </p>
+                                  <button type="submit" class="btn btn-default">Feliratkozás</button>
+                                  <span>Leiratkozás</span>
+                                </form>
+                          </div>
+                          <div class="candy-border"></div>
+                      </div>
+                        <div class="proba">
+                          <h3>Kategóriák</h3>
+                          <ul class="list-unstyled">
+                            <li>Bébi, kisgyerek</li>
+                            <li>Plüssök</li>
+                            <li>Kreatív játékok</li>
+                            <li>Babák és kiegészítõk</li>
+                            <li>Szerepjátékok</li>
+                            <li>Akció figurák, gyûjthetõ figurák</li>
+                            <li>Elektronikus játékok</li>
+                            <li>Autók, jármûvek</li>
+                            <li>Építõjátékok, LEGO</li>
+                            <li>Kert, kültéri játékok</li>
+                          </ul>
+                        </div>
+                    </div>
+              </div>
+                    </aside>
+                  <div class="container col-9">
+                    <div class="container">
+                      Slide-show place is here
+                    </div>
+                    <div class="container">
+                        <h2>Kemelt Ajánlataink</h2>
+                        <div class="row">
+                            <div class="container boxes col-3">
+
+                                <h5>Wooden City London Busz</h5>
+                             </div>
+                             <div class="container boxes col-3">
+                                <h7>Speed color társasjáték</h7>
+                          </div>
+                              </div>
+                              <div class="container boxes col-3">
+                                  <h7>Speed color társasjáték</h7>
+                              </div>
+                              <div class="container boxes col-3">
+                                  <h7>Habszivacs Szõnyeg Társasjáték</h7>
+                              </div>
+                              <div class="container boxes col-3">
+                                  <h7>Playmobi l9455</h7>
+                               </div>
+                               <div class="container boxes col-3">
+                                  <h7>Lego 10846</h7>
+                                </div>
+                                <div class="container boxes col-3">
+                                    <h7>Monopoly Bábuõrület</h7>
+                                </div>
+                                <div class="container boxes col-3">
+                                    <h7>Berg Judit: Maszat Jatszik</h7>
+                                </div>
+                        </div>
+                      </div>
+                    <div class="container colok">
+                      <h2>Akciós Ajánlatok</h2>
+                      <div class="row">
+                          <div class="container boxes col">
+                              <h7>Activity Original társasjáték</h7>
+                              <p><button>Kosárba</button></p>
+                           </div>
+                           <div class="container boxes col">
+                              <h7>Tudnak-e repülni a malacok?</h7>
+                            </div>
+                            <div class="container boxes col">
+                                <h7>Slime Laboratory Fiús</h7>
+                            </div>
+                            <div class="container boxes col">
+                                <h7>Óvodas Vagyok Társasjáték</h7>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+          </div>
+          <footer>
+            footer
+          </footer>
+        </div>
+      </body>
+      </html>

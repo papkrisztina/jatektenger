@@ -1,0 +1,8 @@
+1, <img src="../jatektenger/images/c585863ab358098381cf551231958073816793d5_prod_list.jpeg" alt="Catan telepesei társasjáték">
+2, <img src="../jatektenger/images/eb92f8657f8046fe3688189d00dff63b0873a41f_prod_list.jpeg" alt="Harry Potter: Roxforti csata - Sötét varázslatok kivédése társasjáték">
+3, <img src="../jatektenger/images/55c8ea1e3cfb6e3cd897d104e603d16631775cd5_prod_list.jpeg" alt="Ficher-Price tanuló kutyusos kocsi">
+4, <img src="../jatektenger/images/1d3c1526ad140d783d93b1626e38e127d66f6f67_prod_list.jpeg" alt="Present Pets interaktív meglepetés kutyus ( kölyök állatka) - lila">
+5, <img src="../jatektenger/images/de64b0e0e9e2d3bc60a3d8ded7fd9ea9f1cb3426_prod_list.jpeg" alt="Megableu bank attack társasjáték">
+6, <img src="../jatektenger/images/90be8b152f3f43426798a80dcf09c79a3c513184_prod_list.jpeg" alt="Cool maker go glam deluxe manikür szalon 2 az 1 ben készlet">
+7, <img src="../jatektenger/images/27424be62e2b08703a4468900e2707313e683506_prod_list.jpeg" alt="baby shark cápa család zenélő plüss - bébi cápa">
+8, <img src="../jatektenger/images/7a994589aaa5b5606cff559e6f501e2fe6c497ac_prod_list.jpeg" alt="My fairy garden unikornis kert">
